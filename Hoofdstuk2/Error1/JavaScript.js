@@ -1,7 +1,9 @@
 function formulierValideren(form)
 {
 // Gebruikersnaam controleren
+//geen opening haakje (
 with (form.gebruikersnaam)
+// ( toegevoegd voor form
 {
 	if (value=='' || value==null)
 	{
