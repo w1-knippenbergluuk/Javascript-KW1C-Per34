@@ -1,0 +1,31 @@
+#startButton    {
+    width: 100px;
+    height: 75px;
+    background-color: orange;
+    border: 0px;
+    visibility: visible;
+    position: relative;
+    margin: 0;
+}
+
+#startButton:hover    {
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+}
+
+#clickButton {
+    width: 100px;
+    height: 75px;
+    background-color: orange;
+    visibility: hidden;
+    border: 0px;
+    position: relative;
+    right: 104px;
+    top: 8px;
+    margin: 0;
+}
+
+#clickButton {
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KLIKKEN NU DOEN DAN</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="JavaScript.js"></script>
+    </head>
+    <body>
+        <div id="buttons">
+            <button id="startButton" onclick="nieuwSpel();">Nieuw spel beginnen</button>
+            <button id="clickButton" onclick="klikCounter();">Klik hier!</button>
+        </div>
+        
+
+        <table>
+            <tr>
+                <td>Positie</td>
+                <td>Score</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td id="first">0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td id="second">0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td id="third">0</td>
+            </tr>
+        </table>
+        <div id="resultaatDiv"><p id="resultaat"></p></div>
+    </body>
+</html>
