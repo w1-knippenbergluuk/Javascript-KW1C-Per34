@@ -8,7 +8,7 @@ function nieuwSpel(){
     // startbutton weg toveren
     document.getElementById("startButton").style.visibility = "hidden";
     // 5 seconde timer aanzetten
-    setTimeout(countdown, 1000);
+    setTimeout(countdown, 5000);
     // clicks startwaarde op 0 zetten
     clicks = 0;
 };
