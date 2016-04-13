@@ -1,4 +1,5 @@
 function bereken(){
+    // variablen aanmaken
     var getalElement = document.getElementById('opleiding');
     var opleiding = getalElement.value;
     
@@ -9,7 +10,8 @@ function bereken(){
     var HBO2 = 2 ;
 
 
-
+    // controle die kijkt of dat je mbo of hbo doet, als je mbo doet gaat die naar de functie MBOcalculate
+    // if statement die bekijkt wat voor functie niveau programmeur je bent
     if (opleiding == "MBO") {
         MBOCalculate();
      }	else{
@@ -32,6 +34,7 @@ function bereken(){
 	    
 }    
 
+//herhaling van bovenstaande functie alleen dan gericht op MBO
 function MBOCalculate(){
     var getalElement = document.getElementById('jaar');
     var jaar = getalElement.value;
