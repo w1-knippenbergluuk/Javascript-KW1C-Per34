@@ -1,0 +1,25 @@
+h2
+{
+    font-family: Tahoma;
+}
+#container 
+{
+	height:400px;
+}
+#container img
+{
+	display: block;
+	width: 400px;
+    padding: 5px;
+}
+#strip
+{
+	padding: 5px;
+}
+
+#strip img
+{			
+    border: 1px solid black;
+	width:100px;
+	cursor: pointer;
+}
