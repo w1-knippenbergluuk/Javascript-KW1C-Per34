@@ -1,0 +1,9 @@
+#blokje 
+{
+	width: 500px;
+	height: 500px;
+	top: 60px;
+	left: 10px;
+	position: absolute;
+	background-color: #FFFF99;
+}
