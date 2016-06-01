@@ -33,4 +33,15 @@ $(document).ready(function () {
         $("#textfield").val('');
     });
 
+
+    // OPDRACHT 5
+    //Document en window events 
+    $( window ).resize(function() {
+        $( "#naamlijstje" ).append( "<div>Handler for .resize() called.</div>" );
+    });
+
+    //Keyboard events 
+    $( "#textfield" ).keyup(function() {
+        alert( "Handler for .keyup() called." );
+    });
 });
